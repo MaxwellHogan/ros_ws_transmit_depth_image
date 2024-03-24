@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtensorops.a CMakeFiles/tensorops.dir/extensions/tensorops/components/ImageUtils.cpp.o
+/usr/bin/ranlib libtensorops.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgxf_vpi.a CMakeFiles/gxf_vpi.dir/gems/vpi/constants.cpp.o CMakeFiles/gxf_vpi.dir/gems/vpi/image_wrapper.cpp.o
+/usr/bin/ranlib libgxf_vpi.a

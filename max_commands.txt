@@ -13,12 +13,15 @@ source ${ISAAC_ROS_WS}install/setup.bash
 
 ros2 run realsense2_camera realsense2_camera_node -ros-args -p depth_module.profile:=640x480x30 
 
-
 ## working gstream pipeline of depth image:
 
 ros2 launch realsense2_camera rs_launch.py depth_module.profile:=1280x720x30 colorizer.enable:=true
 
-gst-launch-1.0 --gst-plugin-path=install/gst_bridge/lib/gst_bridge/ rosimagesrc ros-topic="camera/depth/image_rect_raw" ! videoconvert ! videoscale ! video/x-raw,width=180,height=320 ! x264enc tune=zerolatency bitrate=5000 ! h264parse ! rtph264pay ! udpsink host=192.168.55.100 port=5600
+ros2 launch src/isaac_ros_image_pipeline/isaac_ros_image_proc/launch/isaac_ros_image_resize.launch.py
+
+gst-launch-1.0 --gst-plugin-path=install/gst_bridge/lib/gst_bridge/ rosimagesrc ros-topic="/resize/image" ! videoconvert ! x264enc tune=zerolatency bitrate=5000 ! h264parse ! rtph264pay ! udpsink host=192.168.55.100 port=5600
+
+######################################################################################
 
 gst-launch-1.0 --gst-plugin-path=install/gst_bridge/lib/gst_bridge/ rosimagesrc ros-topic="camera/depth/image_rect_raw" ! videoconvert ! ximagesrc
 
