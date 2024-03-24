@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target realsense2_camera[0m
+[ 12%] Built target realsense2_camera_node
+[ 18%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+[01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/named_filter.cpp:20:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid realsense2_camera::NamedFilter::setOptions()[m[K’
+   20 | void [01;31m[KNamedFilter[m[K::setOptions(){
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/named_filter.cpp:20:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid realsense2_camera::NamedFilter::setOptions()[m[K’
+In file included from [01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/named_filter.cpp:4[m[K:
+[01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/include/named_filter.h:15:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass realsense2_camera::NamedFilter[m[K’ defined here
+   15 |     class [01;36m[KNamedFilter[m[K
+      |           [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp:[m[K In member function ‘[01m[Kvoid realsense2_camera::BaseRealSenseNode::setupFilters()[m[K’:
+[01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp:179:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_colorized_filter[m[K’ was not declared in this scope; did you mean ‘[01m[K_colorizer_filter[m[K’?
+  179 |     [01;31m[K_colorized_filter[m[K->setOptions();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |     [32m[K_colorizer_filter[m[K
+make[2]: *** [CMakeFiles/realsense2_camera.dir/build.make:202: CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/realsense2_camera.dir/build.make:90: CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/realsense2_camera.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

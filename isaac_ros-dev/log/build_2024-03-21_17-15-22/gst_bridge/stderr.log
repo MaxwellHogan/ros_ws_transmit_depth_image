@@ -1,0 +1,59 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/include/gst_bridge/gst_bridge.h:27[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/include/gst_bridge/rosaudiosrc.h:24[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosaudiosrc.cpp:33[m[K:
+[01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosaudiosrc.cpp:[m[K In function ‘[01m[Kvoid rosaudiosrc_sub_cb(Rosaudiosrc*, audio_msgs::msg::Audio_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosaudiosrc.cpp:558:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+  558 |       RCLCPP_ERROR(ros_base_src->logger, [01;35m[K"audio format changed during playback, encoding %s != %s"[m[K,
+      |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  559 |         [32m[Kgst_bridge::getRosEncoding(GST_AUDIO_INFO_FORMAT(&(src->audio_info)))[m[K, msg->encoding.c_str()); // XXX account for the override
+      |         [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                   [32m[K|[m[K
+      |                                   [32m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosaudiosrc.cpp:558:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ERROR[m[K’
+  558 |       [01;36m[KRCLCPP_ERROR[m[K(ros_base_src->logger, "audio format changed during playback, encoding %s != %s",
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosaudiosrc.cpp:558:91:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  558 |       RCLCPP_ERROR(ros_base_src->logger, "audio format changed during playback, encoding [01;36m[K%s[m[K != %s",
+      |                                                                                          [01;36m[K~^[m[K
+      |                                                                                           [01;36m[K|[m[K
+      |                                                                                           [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/include/gst_bridge/gst_bridge.h:27[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/include/gst_bridge/rosimagesrc.h:24[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosimagesrc.cpp:34[m[K:
+[01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosimagesrc.cpp:[m[K In function ‘[01m[Kvoid rosimagesrc_sub_cb(Rosimagesrc*, sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosimagesrc.cpp:552:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  552 |       RCLCPP_ERROR(ros_base_src->logger, [01;35m[K"image format changed during playback, step %d != %d"[m[K, [32m[Ksrc->step[m[K, msg->step/msg->width);
+      |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~[m[K
+      |                                                                                                      [32m[K|[m[K
+      |                                                                                                      [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosimagesrc.cpp:552:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ERROR[m[K’
+  552 |       [01;36m[KRCLCPP_ERROR[m[K(ros_base_src->logger, "image format changed during playback, step %d != %d", src->step, msg->step/msg->width);
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosimagesrc.cpp:552:87:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  552 |       RCLCPP_ERROR(ros_base_src->logger, "image format changed during playback, step [01;36m[K%d[m[K != %d", src->step, msg->step/msg->width);
+      |                                                                                      [01;36m[K~^[m[K
+      |                                                                                       [01;36m[K|[m[K
+      |                                                                                       [01;36m[Kint[m[K
+      |                                                                                      [32m[K%ld[m[K

@@ -1,0 +1,56 @@
+[7.331s] Invoking command in '/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_pipeline': PYTHONPATH=/workspaces/isaac_ros-dev/build/gst_pipeline/prefix_override:/workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/gst_pipeline build --build-base /workspaces/isaac_ros-dev/build/gst_pipeline/build install --record /workspaces/isaac_ros-dev/build/gst_pipeline/install.log --install-scripts $base/lib/gst_pipeline --single-version-externally-managed
+[8.084s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[8.084s]   warnings.warn(
+[8.338s] running egg_info
+[8.338s] creating ../../../build/gst_pipeline/gst_pipeline.egg-info
+[8.356s] writing ../../../build/gst_pipeline/gst_pipeline.egg-info/PKG-INFO
+[8.356s] writing dependency_links to ../../../build/gst_pipeline/gst_pipeline.egg-info/dependency_links.txt
+[8.357s] writing entry points to ../../../build/gst_pipeline/gst_pipeline.egg-info/entry_points.txt
+[8.357s] writing requirements to ../../../build/gst_pipeline/gst_pipeline.egg-info/requires.txt
+[8.357s] writing top-level names to ../../../build/gst_pipeline/gst_pipeline.egg-info/top_level.txt
+[8.366s] writing manifest file '../../../build/gst_pipeline/gst_pipeline.egg-info/SOURCES.txt'
+[8.429s] reading manifest file '../../../build/gst_pipeline/gst_pipeline.egg-info/SOURCES.txt'
+[8.429s] adding license file 'LICENSE.md'
+[8.430s] writing manifest file '../../../build/gst_pipeline/gst_pipeline.egg-info/SOURCES.txt'
+[8.431s] running build
+[8.432s] running build_py
+[8.432s] creating /workspaces/isaac_ros-dev/build/gst_pipeline/build
+[8.433s] creating /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib
+[8.433s] creating /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib/gst_pipeline
+[8.434s] copying gst_pipeline/webrtc_pipes.py -> /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib/gst_pipeline
+[8.434s] copying gst_pipeline/webrtc_transport_ws.py -> /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib/gst_pipeline
+[8.435s] copying gst_pipeline/simplebin.py -> /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib/gst_pipeline
+[8.439s] copying gst_pipeline/pipeline.py -> /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib/gst_pipeline
+[8.440s] copying gst_pipeline/pipeline_node.py -> /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib/gst_pipeline
+[8.440s] copying gst_pipeline/webrtc_sigchan.py -> /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib/gst_pipeline
+[8.441s] copying gst_pipeline/__init__.py -> /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib/gst_pipeline
+[8.441s] running install
+[8.448s] running install_lib
+[8.486s] creating /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline
+[8.486s] copying /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib/gst_pipeline/webrtc_pipes.py -> /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline
+[8.488s] copying /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib/gst_pipeline/webrtc_transport_ws.py -> /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline
+[8.491s] copying /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib/gst_pipeline/simplebin.py -> /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline
+[8.492s] copying /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib/gst_pipeline/pipeline.py -> /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline
+[8.492s] copying /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib/gst_pipeline/pipeline_node.py -> /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline
+[8.492s] copying /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib/gst_pipeline/webrtc_sigchan.py -> /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline
+[8.493s] copying /workspaces/isaac_ros-dev/build/gst_pipeline/build/lib/gst_pipeline/__init__.py -> /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline
+[8.493s] byte-compiling /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline/webrtc_pipes.py to webrtc_pipes.cpython-38.pyc
+[8.504s] byte-compiling /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline/webrtc_transport_ws.py to webrtc_transport_ws.cpython-38.pyc
+[8.506s] byte-compiling /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline/simplebin.py to simplebin.cpython-38.pyc
+[8.508s] byte-compiling /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline/pipeline.py to pipeline.cpython-38.pyc
+[8.510s] byte-compiling /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline/pipeline_node.py to pipeline_node.cpython-38.pyc
+[8.517s] byte-compiling /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline/webrtc_sigchan.py to webrtc_sigchan.cpython-38.pyc
+[8.519s] byte-compiling /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline/__init__.py to __init__.cpython-38.pyc
+[8.525s] running install_data
+[8.536s] creating /workspaces/isaac_ros-dev/install/gst_pipeline/share/ament_index
+[8.537s] creating /workspaces/isaac_ros-dev/install/gst_pipeline/share/ament_index/resource_index
+[8.537s] creating /workspaces/isaac_ros-dev/install/gst_pipeline/share/ament_index/resource_index/packages
+[8.540s] copying resource/gst_pipeline -> /workspaces/isaac_ros-dev/install/gst_pipeline/share/ament_index/resource_index/packages
+[8.540s] copying package.xml -> /workspaces/isaac_ros-dev/install/gst_pipeline/share/gst_pipeline
+[8.541s] creating /workspaces/isaac_ros-dev/install/gst_pipeline/share/gst_pipeline/config
+[8.541s] running install_egg_info
+[8.584s] Copying ../../../build/gst_pipeline/gst_pipeline.egg-info to /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline-0.0.0-py3.8.egg-info
+[8.584s] running install_scripts
+[8.789s] Installing pipeline_node script to /workspaces/isaac_ros-dev/install/gst_pipeline/lib/gst_pipeline
+[8.789s] writing list of installed files to '/workspaces/isaac_ros-dev/build/gst_pipeline/install.log'
+[9.394s] Invoked command in '/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_pipeline' returned '0': PYTHONPATH=/workspaces/isaac_ros-dev/build/gst_pipeline/prefix_override:/workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/gst_pipeline build --build-base /workspaces/isaac_ros-dev/build/gst_pipeline/build install --record /workspaces/isaac_ros-dev/build/gst_pipeline/install.log --install-scripts $base/lib/gst_pipeline --single-version-externally-managed

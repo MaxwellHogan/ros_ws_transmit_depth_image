@@ -1,0 +1,43 @@
+[0.779s] Invoking command in '/workspaces/isaac_ros-dev/build/gst_bridge': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/gst_bridge -- -j6 -l6
+[1.678s] [ 84%] Built target rosgstbridge
+[1.703s] [100%] Built target gst_bridge
+[1.749s] Invoked command in '/workspaces/isaac_ros-dev/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/gst_bridge -- -j6 -l6
+[1.960s] Invoking command in '/workspaces/isaac_ros-dev/build/gst_bridge': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/gst_bridge
+[1.993s] -- Install configuration: "RelWithDebInfo"
+[1.994s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/environment/library_path.sh
+[1.994s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/environment/library_path.dsv
+[1.995s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/include
+[1.996s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge
+[1.996s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rosimagesrc.h
+[1.996s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rosbasesink.h
+[1.996s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rosaudiosrc.h
+[1.996s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rostextsrc.h
+[1.996s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rosimagesink.h
+[1.997s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rostextsink.h
+[1.997s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rosbasesrc.h
+[1.997s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rosaudiosink.h
+[1.997s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/gst_bridge.h
+[1.997s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/config
+[1.997s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/config/example.config.yaml
+[1.998s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/launch
+[1.998s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/launch/example.launch.py
+[1.999s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/lib/libgst_bridge.so
+[2.003s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/lib/gst_bridge/librosgstbridge.so
+[2.004s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/ament_index/resource_index/package_run_dependencies/gst_bridge
+[2.004s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/ament_index/resource_index/parent_prefix_path/gst_bridge
+[2.005s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/environment/ament_prefix_path.sh
+[2.005s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/environment/ament_prefix_path.dsv
+[2.005s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/environment/path.sh
+[2.005s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/environment/path.dsv
+[2.006s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/local_setup.bash
+[2.006s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/local_setup.sh
+[2.006s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/local_setup.zsh
+[2.006s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/local_setup.dsv
+[2.006s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/package.dsv
+[2.007s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/ament_index/resource_index/packages/gst_bridge
+[2.007s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.007s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[2.007s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/cmake/gst_bridgeConfig.cmake
+[2.007s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/cmake/gst_bridgeConfig-version.cmake
+[2.007s] -- Up-to-date: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/package.xml
+[2.024s] Invoked command in '/workspaces/isaac_ros-dev/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/gst_bridge

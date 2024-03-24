@@ -1,0 +1,24 @@
+[7.515s] Invoking command in '/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_pipeline': PYTHONPATH=/workspaces/isaac_ros-dev/build/gst_pipeline/prefix_override:/workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/gst_pipeline build --build-base /workspaces/isaac_ros-dev/build/gst_pipeline/build install --record /workspaces/isaac_ros-dev/build/gst_pipeline/install.log --install-scripts $base/lib/gst_pipeline --single-version-externally-managed
+[8.413s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[8.413s]   warnings.warn(
+[8.659s] running egg_info
+[8.707s] writing ../../../build/gst_pipeline/gst_pipeline.egg-info/PKG-INFO
+[8.796s] writing dependency_links to ../../../build/gst_pipeline/gst_pipeline.egg-info/dependency_links.txt
+[8.797s] writing entry points to ../../../build/gst_pipeline/gst_pipeline.egg-info/entry_points.txt
+[8.798s] writing requirements to ../../../build/gst_pipeline/gst_pipeline.egg-info/requires.txt
+[8.798s] writing top-level names to ../../../build/gst_pipeline/gst_pipeline.egg-info/top_level.txt
+[9.026s] reading manifest file '../../../build/gst_pipeline/gst_pipeline.egg-info/SOURCES.txt'
+[9.027s] adding license file 'LICENSE.md'
+[9.027s] writing manifest file '../../../build/gst_pipeline/gst_pipeline.egg-info/SOURCES.txt'
+[9.027s] running build
+[9.028s] running build_py
+[9.033s] running install
+[9.054s] running install_lib
+[9.236s] running install_data
+[9.282s] running install_egg_info
+[9.319s] removing '/workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline-0.0.0-py3.8.egg-info' (and everything under it)
+[9.320s] Copying ../../../build/gst_pipeline/gst_pipeline.egg-info to /workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages/gst_pipeline-0.0.0-py3.8.egg-info
+[9.393s] running install_scripts
+[9.615s] Installing pipeline_node script to /workspaces/isaac_ros-dev/install/gst_pipeline/lib/gst_pipeline
+[9.740s] writing list of installed files to '/workspaces/isaac_ros-dev/build/gst_pipeline/install.log'
+[10.888s] Invoked command in '/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_pipeline' returned '0': PYTHONPATH=/workspaces/isaac_ros-dev/build/gst_pipeline/prefix_override:/workspaces/isaac_ros-dev/install/gst_pipeline/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/gst_pipeline build --build-base /workspaces/isaac_ros-dev/build/gst_pipeline/build install --record /workspaces/isaac_ros-dev/build/gst_pipeline/install.log --install-scripts $base/lib/gst_pipeline --single-version-externally-managed

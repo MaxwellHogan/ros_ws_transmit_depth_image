@@ -1,0 +1,182 @@
+[0.165s] Invoking command in '/workspaces/isaac_ros-dev/build/gst_bridge': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nova_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_bridge_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_test:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib:/workspaces/isaac_ros-dev/install/realsense2_camera/lib:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nova_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_bridge_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/gst_bridge
+[0.390s] -- The C compiler identification is GNU 9.4.0
+[0.593s] -- The CXX compiler identification is GNU 9.4.0
+[0.615s] -- Detecting C compiler ABI info
+[0.847s] -- Detecting C compiler ABI info - done
+[0.874s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.874s] -- Detecting C compile features
+[0.875s] -- Detecting C compile features - done
+[0.884s] -- Detecting CXX compiler ABI info
+[1.123s] -- Detecting CXX compiler ABI info - done
+[1.149s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.150s] -- Detecting CXX compile features
+[1.151s] -- Detecting CXX compile features - done
+[1.163s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.140s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[3.558s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[3.697s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.713s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.739s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.776s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.827s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.440s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.453s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.577s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.814s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.113s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.621s] -- Looking for pthread.h
+[6.846s] -- Looking for pthread.h - found
+[6.847s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.212s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.213s] -- Looking for pthread_create in pthreads
+[7.721s] -- Looking for pthread_create in pthreads - not found
+[7.721s] -- Looking for pthread_create in pthread
+[7.958s] -- Looking for pthread_create in pthread - found
+[7.962s] -- Found Threads: TRUE  
+[9.150s] -- Checking for module 'gstreamer-1.0 >= 1.8.3'
+[9.348s] --   Found gstreamer-1.0 , version 1.16.3
+[9.510s] -- Checking for module 'gstreamer-base-1.0 >= 1.8.3'
+[9.568s] --   Found gstreamer-base-1.0 , version 1.16.3
+[9.722s] -- Checking for module 'gstreamer-app-1.0 >= 1.8.3'
+[9.774s] --   Found gstreamer-app-1.0 , version 1.16.3
+[10.028s] -- Checking for module 'gstreamer-audio-1.0 >= 1.8.3'
+[10.073s] --   Found gstreamer-audio-1.0 , version 1.16.3
+[10.231s] -- Checking for module 'gstreamer-fft-1.0 >= 1.8.3'
+[10.291s] --   Found gstreamer-fft-1.0 , version 1.16.3
+[10.449s] -- Checking for module 'gstreamer-gl-1.0 >= 1.8.3'
+[10.508s] --   Found gstreamer-gl-1.0 , version 1.16.3
+[10.668s] -- Checking for module 'gstreamer-mpegts-1.0>=1.4.0'
+[10.681s] --   No package 'gstreamer-mpegts-1.0' found
+[10.688s] -- Checking for module 'gstreamer-pbutils-1.0 >= 1.8.3'
+[10.747s] --   Found gstreamer-pbutils-1.0 , version 1.16.3
+[10.913s] -- Checking for module 'gstreamer-tag-1.0 >= 1.8.3'
+[10.974s] --   Found gstreamer-tag-1.0 , version 1.16.3
+[11.130s] -- Checking for module 'gstreamer-video-1.0 >= 1.8.3'
+[11.187s] --   Found gstreamer-video-1.0 , version 1.16.3
+[11.341s] -- Checking for module 'gstreamer-codecparsers-1.0 >= 1.8.3'
+[11.355s] --   No package 'gstreamer-codecparsers-1.0' found
+[11.365s] -- Found GStreamer: GSTREAMER_INCLUDE_DIRS;GSTREAMER_LIBRARIES;GSTREAMER_VERSION;GSTREAMER_BASE_INCLUDE_DIRS;GSTREAMER_BASE_LIBRARIES;GSTREAMER_APP_INCLUDE_DIRS;GSTREAMER_APP_LIBRARIES;GSTREAMER_PBUTILS_INCLUDE_DIRS;GSTREAMER_PBUTILS_LIBRARIES;GSTREAMER_AUDIO_INCLUDE_DIRS;GSTREAMER_AUDIO_LIBRARIES;GSTREAMER_FFT_INCLUDE_DIRS;GSTREAMER_FFT_LIBRARIES;GSTREAMER_NET_INCLUDE_DIRS;GSTREAMER_NET_LIBRARIES (Required is at least version "1.8.3") 
+[12.164s] -- Found GLIB: /usr/include/glib-2.0;/usr/lib/aarch64-linux-gnu/glib-2.0/include (found suitable version "2.64.6", minimum required is "2.28") 
+[12.166s] -- Found audio_msgs: 0.0.0 (/workspaces/isaac_ros-dev/install/audio_msgs/share/audio_msgs/cmake)
+[12.280s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[13.052s] -- Configuring done
+[14.221s] -- Generating done
+[14.228s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/gst_bridge
+[14.274s] Invoked command in '/workspaces/isaac_ros-dev/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nova_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_bridge_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_test:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib:/workspaces/isaac_ros-dev/install/realsense2_camera/lib:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nova_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_bridge_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/gst_bridge
+[14.289s] Invoking command in '/workspaces/isaac_ros-dev/build/gst_bridge': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nova_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_bridge_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_test:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib:/workspaces/isaac_ros-dev/install/realsense2_camera/lib:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nova_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_bridge_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/gst_bridge -- -j6 -l6
+[14.421s] [ 30%] [32mBuilding CXX object CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.o[0m
+[14.421s] [ 30%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/gst_bridge.cpp.o[0m
+[14.422s] [ 30%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosgstbridgeplugin.cpp.o[0m
+[14.422s] [ 38%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosaudiosink.cpp.o[0m
+[14.422s] [ 30%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosbasesrc.cpp.o[0m
+[14.422s] [ 46%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosbasesink.cpp.o[0m
+[35.464s] [ 69%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosimagesink.cpp.o[0m
+[35.465s] [ 69%] [32m[1mLinking CXX shared library libgst_bridge.so[0m
+[35.466s] [ 69%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rostextsink.cpp.o[0m
+[36.691s] [ 76%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosaudiosrc.cpp.o[0m
+[36.718s] [ 84%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosimagesrc.cpp.o[0m
+[42.096s] [ 84%] Built target gst_bridge
+[42.157s] [ 92%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rostextsrc.cpp.o[0m
+[50.853s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[50.853s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[50.853s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[50.853s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[50.854s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[50.854s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[50.854s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[50.854s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[50.854s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[50.854s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[50.854s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[50.854s]                  from [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/include/gst_bridge/gst_bridge.h:27[m[K,
+[50.855s]                  from [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/include/gst_bridge/rosaudiosrc.h:24[m[K,
+[50.855s]                  from [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosaudiosrc.cpp:33[m[K:
+[50.855s] [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosaudiosrc.cpp:[m[K In function ‘[01m[Kvoid rosaudiosrc_sub_cb(Rosaudiosrc*, audio_msgs::msg::Audio_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[50.855s] [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosaudiosrc.cpp:558:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K-Wformat=[m[K]
+[50.855s]   558 |       RCLCPP_ERROR(ros_base_src->logger, [01;35m[K"audio format changed during playback, encoding %s != %s"[m[K,
+[50.855s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[50.855s]   559 |         [32m[Kgst_bridge::getRosEncoding(GST_AUDIO_INFO_FORMAT(&(src->audio_info)))[m[K, msg->encoding.c_str()); // XXX account for the override
+[50.856s]       |         [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[50.856s]       |                                   [32m[K|[m[K
+[50.856s]       |                                   [32m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[50.856s] [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosaudiosrc.cpp:558:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ERROR[m[K’
+[50.856s]   558 |       [01;36m[KRCLCPP_ERROR[m[K(ros_base_src->logger, "audio format changed during playback, encoding %s != %s",
+[50.856s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[50.856s] [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosaudiosrc.cpp:558:91:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[50.856s]   558 |       RCLCPP_ERROR(ros_base_src->logger, "audio format changed during playback, encoding [01;36m[K%s[m[K != %s",
+[50.856s]       |                                                                                          [01;36m[K~^[m[K
+[50.857s]       |                                                                                           [01;36m[K|[m[K
+[50.857s]       |                                                                                           [01;36m[Kchar*[m[K
+[51.641s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[51.641s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[51.641s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[51.642s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[51.642s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[51.642s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[51.642s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[51.642s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[51.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[51.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[51.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[51.643s]                  from [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/include/gst_bridge/gst_bridge.h:27[m[K,
+[51.643s]                  from [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/include/gst_bridge/rosimagesrc.h:24[m[K,
+[51.643s]                  from [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosimagesrc.cpp:34[m[K:
+[51.643s] [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosimagesrc.cpp:[m[K In function ‘[01m[Kvoid rosimagesrc_sub_cb(Rosimagesrc*, sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[51.644s] [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosimagesrc.cpp:552:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[51.644s]   552 |       RCLCPP_ERROR(ros_base_src->logger, [01;35m[K"image format changed during playback, step %d != %d"[m[K, [32m[Ksrc->step[m[K, msg->step/msg->width);
+[51.644s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~[m[K
+[51.644s]       |                                                                                                      [32m[K|[m[K
+[51.644s]       |                                                                                                      [32m[Ksize_t {aka long unsigned int}[m[K
+[51.644s] [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosimagesrc.cpp:552:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ERROR[m[K’
+[51.644s]   552 |       [01;36m[KRCLCPP_ERROR[m[K(ros_base_src->logger, "image format changed during playback, step %d != %d", src->step, msg->step/msg->width);
+[51.644s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[51.645s] [01m[K/workspaces/isaac_ros-dev/src/ros-gst-bridge/gst_bridge/src/rosimagesrc.cpp:552:87:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[51.645s]   552 |       RCLCPP_ERROR(ros_base_src->logger, "image format changed during playback, step [01;36m[K%d[m[K != %d", src->step, msg->step/msg->width);
+[51.645s]       |                                                                                      [01;36m[K~^[m[K
+[51.645s]       |                                                                                       [01;36m[K|[m[K
+[51.645s]       |                                                                                       [01;36m[Kint[m[K
+[51.645s]       |                                                                                      [32m[K%ld[m[K
+[99.887s] [100%] [32m[1mLinking CXX shared library librosgstbridge.so[0m
+[108.395s] [100%] Built target rosgstbridge
+[108.571s] Invoked command in '/workspaces/isaac_ros-dev/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nova_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_bridge_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_test:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib:/workspaces/isaac_ros-dev/install/realsense2_camera/lib:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nova_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_bridge_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/gst_bridge -- -j6 -l6
+[108.978s] Invoking command in '/workspaces/isaac_ros-dev/build/gst_bridge': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nova_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_bridge_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_test:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib:/workspaces/isaac_ros-dev/install/realsense2_camera/lib:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nova_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_bridge_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/gst_bridge
+[109.152s] -- Install configuration: "RelWithDebInfo"
+[109.157s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/environment/library_path.sh
+[109.158s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/environment/library_path.dsv
+[109.159s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/include
+[109.159s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge
+[109.159s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rosimagesrc.h
+[109.160s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rosbasesink.h
+[109.160s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rosaudiosrc.h
+[109.161s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rostextsrc.h
+[109.162s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rosimagesink.h
+[109.162s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rostextsink.h
+[109.163s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rosbasesrc.h
+[109.163s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/rosaudiosink.h
+[109.164s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/include/gst_bridge/gst_bridge.h
+[109.164s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/config
+[109.165s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/config/example.config.yaml
+[109.166s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/launch
+[109.167s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/launch/example.launch.py
+[109.167s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/lib/libgst_bridge.so
+[109.189s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/gst_bridge/lib/libgst_bridge.so" to ""
+[109.190s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/lib/gst_bridge/librosgstbridge.so
+[109.316s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/gst_bridge/lib/gst_bridge/librosgstbridge.so" to ""
+[109.459s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/ament_index/resource_index/package_run_dependencies/gst_bridge
+[109.460s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/ament_index/resource_index/parent_prefix_path/gst_bridge
+[109.473s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/environment/ament_prefix_path.sh
+[109.473s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/environment/ament_prefix_path.dsv
+[109.474s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/environment/path.sh
+[109.475s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/environment/path.dsv
+[109.476s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/local_setup.bash
+[109.476s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/local_setup.sh
+[109.477s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/local_setup.zsh
+[109.478s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/local_setup.dsv
+[109.478s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/package.dsv
+[109.479s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/ament_index/resource_index/packages/gst_bridge
+[109.480s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[109.481s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[109.482s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/cmake/gst_bridgeConfig.cmake
+[109.483s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/cmake/gst_bridgeConfig-version.cmake
+[109.483s] -- Installing: /workspaces/isaac_ros-dev/install/gst_bridge/share/gst_bridge/package.xml
+[109.493s] Invoked command in '/workspaces/isaac_ros-dev/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/audio_msgs:/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nova_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_bridge_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_test:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib:/workspaces/isaac_ros-dev/install/realsense2_camera/lib:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nova_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_nitros_bridge_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/audio_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/gst_bridge

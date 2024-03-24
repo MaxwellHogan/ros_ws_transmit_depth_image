@@ -1,0 +1,13 @@
+[ 12%] Built target realsense2_camera_node
+[ 18%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp:[m[K In member function ‘[01m[Kvoid realsense2_camera::BaseRealSenseNode::setupFilters()[m[K’:
+[01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp:179:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class realsense2_camera::NamedFilter[m[K’ {aka ‘[01m[Kclass realsense2_camera::NamedFilter[m[K’} has no member named ‘[01m[Kset_option[m[K’
+  179 |     _colorizer_filter->[01;31m[Kset_option[m[K(rs.option.visual_preset, 1)
+      |                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp:179:35:[m[K [01;31m[Kerror: [m[K‘[01m[Krs[m[K’ was not declared in this scope; did you mean ‘[01m[Krs2[m[K’?
+  179 |     _colorizer_filter->set_option([01;31m[Krs[m[K.option.visual_preset, 1)
+      |                                   [01;31m[K^~[m[K
+      |                                   [32m[Krs2[m[K
+make[2]: *** [CMakeFiles/realsense2_camera.dir/build.make:90: CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/realsense2_camera.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

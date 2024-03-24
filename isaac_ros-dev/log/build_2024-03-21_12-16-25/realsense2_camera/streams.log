@@ -1,0 +1,115 @@
+[0.205s] Invoking command in '/workspaces/isaac_ros-dev/build/realsense2_camera': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/realsense2_camera
+[0.561s] -- The C compiler identification is GNU 9.4.0
+[0.757s] -- The CXX compiler identification is GNU 9.4.0
+[0.772s] -- Detecting C compiler ABI info
+[1.001s] -- Detecting C compiler ABI info - done
+[1.022s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.023s] -- Detecting C compile features
+[1.023s] -- Detecting C compile features - done
+[1.029s] -- Detecting CXX compiler ABI info
+[1.234s] -- Detecting CXX compiler ABI info - done
+[1.248s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.249s] -- Detecting CXX compile features
+[1.249s] -- Detecting CXX compile features - done
+[1.251s] -- Create Release Build.
+[1.256s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.162s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[3.403s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[3.506s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.520s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.545s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.583s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.763s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[4.786s] -- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)
+[4.944s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.950s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.266s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.352s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.516s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.533s] -- Looking for pthread.h
+[5.666s] -- Looking for pthread.h - found
+[5.668s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.962s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.963s] -- Looking for pthread_create in pthreads
+[6.333s] -- Looking for pthread_create in pthreads - not found
+[6.333s] -- Looking for pthread_create in pthread
+[6.557s] -- Looking for pthread_create in pthread - found
+[6.559s] -- Found Threads: TRUE  
+[7.219s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[7.492s] -- Found realsense2_camera_msgs: 4.51.1 (/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[7.755s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[8.067s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[10.003s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[10.809s] -- Build for ROS2 Humble
+[11.316s] -- Configuring done
+[12.005s] -- Generating done
+[12.039s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/realsense2_camera
+[12.270s] Invoked command in '/workspaces/isaac_ros-dev/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/realsense2_camera
+[12.283s] Invoking command in '/workspaces/isaac_ros-dev/build/realsense2_camera': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/realsense2_camera -- -j6 -l6
+[12.553s] [  6%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[12.588s] [ 12%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o[0m
+[12.634s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o[0m
+[12.634s] [ 18%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o[0m
+[12.634s] [ 25%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[12.634s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o[0m
+[34.033s] [ 43%] [32m[1mLinking CXX executable realsense2_camera_node[0m
+[35.197s] [ 43%] Built target realsense2_camera_node
+[72.418s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+[92.024s] [ 56%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o[0m
+[104.053s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o[0m
+[104.054s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o[0m
+[105.067s] [ 81%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o[0m
+[105.068s] [ 81%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o[0m
+[106.081s] [ 87%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o[0m
+[114.647s] [ 93%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o[0m
+[124.578s] [100%] [32m[1mLinking CXX shared library librealsense2_camera.so[0m
+[128.831s] [100%] Built target realsense2_camera
+[128.983s] Invoked command in '/workspaces/isaac_ros-dev/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/realsense2_camera -- -j6 -l6
+[129.269s] Invoking command in '/workspaces/isaac_ros-dev/build/realsense2_camera': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/realsense2_camera
+[129.417s] -- Install configuration: "Release"
+[129.417s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[129.419s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node" to ""
+[129.419s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/lib/librealsense2_camera.so
+[129.426s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/realsense2_camera/lib/librealsense2_camera.so" to ""
+[129.426s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/include
+[129.426s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/include/ros_sensor.h
+[129.427s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/include/constants.h
+[129.427s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/include/ros_param_backend.h
+[129.427s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/include/ros_utils.h
+[129.428s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/include/dynamic_params.h
+[129.428s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/include/t265_realsense_node.h
+[129.428s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/include/profile_manager.h
+[129.429s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/include/named_filter.h
+[129.429s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/include/realsense_node_factory.h
+[129.429s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/include/base_realsense_node.h
+[129.430s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/include/sensor_params.h
+[129.430s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/include/image_publisher.h
+[129.431s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/launch
+[129.431s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/launch/rs_d400_and_t265_launch.py
+[129.432s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[129.432s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[129.433s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[129.434s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+[129.435s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[129.435s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[129.438s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[129.439s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[129.440s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[129.441s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[129.441s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[129.441s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[129.442s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[129.443s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[129.444s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[129.444s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[129.445s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/package.dsv
+[129.446s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[129.447s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[129.448s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[129.449s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[129.450s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[129.454s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[129.454s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[129.455s] -- Installing: /workspaces/isaac_ros-dev/install/realsense2_camera/share/realsense2_camera/package.xml
+[129.460s] Invoked command in '/workspaces/isaac_ros-dev/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/realsense2_camera

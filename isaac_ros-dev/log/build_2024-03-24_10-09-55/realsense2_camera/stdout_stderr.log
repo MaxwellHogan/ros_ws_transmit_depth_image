@@ -1,0 +1,48 @@
+[35m[1mConsolidate compiler generated dependencies of target realsense2_camera[0m
+[ 12%] Built target realsense2_camera_node
+[ 18%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+In file included from [01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/named_filter.cpp:4[m[K:
+[01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/include/named_filter.h:22:18:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Krealsense2_camera::NamedFilter::[m[K’ on member ‘[01m[KsetOptions[m[K’ [[01;31m[K-fpermissive[m[K]
+   22 |             void [01;31m[KNamedFilter[m[K::setOptions();
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/include/base_realsense_node.h:34[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/../include/t265_realsense_node.h:6[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/t265_realsense_node.cpp:4[m[K:
+[01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/include/named_filter.h:22:18:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Krealsense2_camera::NamedFilter::[m[K’ on member ‘[01m[KsetOptions[m[K’ [[01;31m[K-fpermissive[m[K]
+   22 |             void [01;31m[KNamedFilter[m[K::setOptions();
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/../include/base_realsense_node.h:34[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp:4[m[K:
+[01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/include/named_filter.h:22:18:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Krealsense2_camera::NamedFilter::[m[K’ on member ‘[01m[KsetOptions[m[K’ [[01;31m[K-fpermissive[m[K]
+   22 |             void [01;31m[KNamedFilter[m[K::setOptions();
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/../include/base_realsense_node.h:34[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/rs_node_setup.cpp:4[m[K:
+[01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/include/named_filter.h:22:18:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Krealsense2_camera::NamedFilter::[m[K’ on member ‘[01m[KsetOptions[m[K’ [[01;31m[K-fpermissive[m[K]
+   22 |             void [01;31m[KNamedFilter[m[K::setOptions();
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/../include/base_realsense_node.h:34[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/parameters.cpp:4[m[K:
+[01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/include/named_filter.h:22:18:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Krealsense2_camera::NamedFilter::[m[K’ on member ‘[01m[KsetOptions[m[K’ [[01;31m[K-fpermissive[m[K]
+   22 |             void [01;31m[KNamedFilter[m[K::setOptions();
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/../include/base_realsense_node.h:34[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/../include/realsense_node_factory.h:8[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp:4[m[K:
+[01m[K/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera/include/named_filter.h:22:18:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[Krealsense2_camera::NamedFilter::[m[K’ on member ‘[01m[KsetOptions[m[K’ [[01;31m[K-fpermissive[m[K]
+   22 |             void [01;31m[KNamedFilter[m[K::setOptions();
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/realsense2_camera.dir/build.make:202: CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/realsense2_camera.dir/build.make:118: CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o] Error 1
+make[2]: *** [CMakeFiles/realsense2_camera.dir/build.make:76: CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o] Error 1
+make[2]: *** [CMakeFiles/realsense2_camera.dir/build.make:104: CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o] Error 1
+make[2]: *** [CMakeFiles/realsense2_camera.dir/build.make:132: CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o] Error 1
+make[2]: *** [CMakeFiles/realsense2_camera.dir/build.make:90: CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/realsense2_camera.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
