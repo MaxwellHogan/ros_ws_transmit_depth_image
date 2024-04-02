@@ -1,5 +1,7 @@
 useful commands 
 
+cd ${ISAAC_ROS_WS}/src/isaac_ros_common && ./scripts/run_dev.sh ${ISAAC_ROS_WS}
+
 1. install realsense and gstreamer-bridge ros packages (for humble)
 
 rosdep update
@@ -9,20 +11,22 @@ colcon build
 1.1 run the following to link stuff 
 source ${ISAAC_ROS_WS}install/setup.bash
 
-2. test the installation 
-
-ros2 run realsense2_camera realsense2_camera_node -ros-args -p depth_module.profile:=640x480x30 
-
+################################################################################
 ## working gstream pipeline of depth image:
 
-ros2 launch realsense2_camera rs_launch.py depth_module.profile:=1280x720x30 colorizer.enable:=true
+ros2 launch realsense2_camera rs_launch.py depth_module.profile:=848x480x30 colorizer.enable:=true clip_distance:=3.0
 
 ros2 launch src/isaac_ros_image_pipeline/isaac_ros_image_proc/launch/isaac_ros_image_resize.launch.py
 
-gst-launch-1.0 --gst-plugin-path=install/gst_bridge/lib/gst_bridge/ rosimagesrc ros-topic="/resize/image" ! videoconvert ! x264enc tune=zerolatency bitrate=5000 ! h264parse ! rtph264pay ! udpsink host=192.168.55.100 port=5600
+gst-launch-1.0 --gst-plugin-path=install/gst_bridge/lib/gst_bridge/ rosimagesrc ros-topic="/resize/image" ! videoconvert ! x264enc tune=zerolatency bitrate=5000 ! h264parse ! rtph264pay ! udpsink host=192.168.1.104 port=5600
 
 ######################################################################################
 
+#########################
+2. test the installation 
+
+ros2 run realsense2_camera realsense2_camera_node -ros-args -p depth_module.profile:=640x480x30 
+ ##############################
 gst-launch-1.0 --gst-plugin-path=install/gst_bridge/lib/gst_bridge/ rosimagesrc ros-topic="camera/depth/image_rect_raw" ! videoconvert ! ximagesrc
 
 gst-launch-1.0 --gst-plugin-path=install/gst_bridge/lib/gst_bridge/ rosimagesrc ros-topic="camera/depth/image_rect_raw" ! gamma gamma=2.0 ! rosimagesink ros-topic="image_gamma_corrected"

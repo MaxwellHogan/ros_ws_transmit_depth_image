@@ -22,11 +22,16 @@ from launch_ros.descriptions import ComposableNode
 
 def generate_launch_description():
     image_flip_node = ComposableNode(
-        name='image_flip_node',
+        name='image_resize_node',
         package='isaac_ros_image_proc',
-        plugin='nvidia::isaac_ros::image_proc::ImageFlipNode',
+        plugin='nvidia::isaac_ros::image_proc::ResizeNode',
+        parameters=[{
+                'output_height': 180,
+                'output_width': 320
+        }],
         remappings=[
-            ("image","camera/depth/image_rect_raw")
+            ("image","camera/depth/image_rect_raw"),
+            ("camera_info","/camera/depth/camera_info")
         ]
     )
     image_flip_container = ComposableNodeContainer(
