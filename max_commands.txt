@@ -11,6 +11,12 @@ colcon build
 1.1 run the following to link stuff 
 source ${ISAAC_ROS_WS}install/setup.bash
 
+2. run installation for the XRCE_DDS_Agent which is required by MAVROS:
+
+cd ${ISAAC_ROS_WS}src/Micro-XRCE-DDS-Agent/build
+sudo make install
+sudo ldconfig /usr/local/lib/
+
 ################################################################################
 ## working gstream pipeline of depth image:
 
@@ -22,8 +28,18 @@ gst-launch-1.0 --gst-plugin-path=install/gst_bridge/lib/gst_bridge/ rosimagesrc 
 
 ######################################################################################
 
+for saving raw info to a text file:
+ros2 topic echo /vrpn_mocap/groundPlane/pose > test.txt
+
+in this example:
+	The topic name is /vrpn_mocap/groundPlane/pose
+	The outfile name is test.txt
+
+^ here I am using a ros2 optitrack plugin from:
+	https://github.com/alvinsunyixiao/vrpn_mocap
+
 #########################
-2. test the installation 
+test the installation 
 
 ros2 run realsense2_camera realsense2_camera_node -ros-args -p depth_module.profile:=640x480x30 
  ##############################
